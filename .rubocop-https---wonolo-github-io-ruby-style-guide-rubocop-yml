@@ -1,0 +1,7 @@
+Metrics/CyclomaticComplexity:
+  Enabled: true
+  Max: 8
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'vendor/**/*'
