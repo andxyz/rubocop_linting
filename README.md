@@ -5,6 +5,7 @@ bundle exec rubocop --config .rubocop.yml Gemfile
 ```
 
 Called via something like: `git rubocop-against-master-latest-rubocop-linting-rules.sh`
+
 Setup with something like:
 
 ```shell
