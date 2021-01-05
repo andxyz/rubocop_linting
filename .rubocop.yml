@@ -6,6 +6,11 @@ inherit_from:
   - https://wonolo.github.io/ruby-style-guide/rubocop.yml
 
 AllCops:
-  RSpec:
-    Patterns:
+  Exclude:
+    - 'vendor/**/*'
+    - 'tmp/**/*'
+  TargetRubyVersion: 2.6
+
+RSpec/FilePath:
+  Include:
     - '_spec.rb$'
