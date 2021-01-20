@@ -1,3 +1,13 @@
+# Reason
+
+This app lets me test out different rubocop setups. 
+
+Typically I try to make this codebase contain the lastest and greatest rubocop rules.
+
+Sometimes you can get the application code to pass both checks.
+- CI has it's version of rubocop.
+- Now locally we can test the modified files with the latest rubocop setup available
+
 Test it out with:
 
 ```shell
