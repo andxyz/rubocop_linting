@@ -8,6 +8,8 @@ Sometimes you can get the application code to pass both checks.
 - CI has it's version of rubocop.
 - Now locally we can test the modified files with the latest rubocop setup available
 
+## Usage
+
 Test it out with:
 
 ```shell
